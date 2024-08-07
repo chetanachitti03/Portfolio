@@ -1,0 +1,46 @@
+
+/* Gallery.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(Images/BG.avif);
+    background-size: cover;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+marquee {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+marquee img {
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+marquee img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    marquee img {
+        width: 200px;
+        height: auto;
+    }
+}

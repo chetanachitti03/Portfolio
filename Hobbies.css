@@ -1,0 +1,53 @@
+h1{
+    color: violet;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blueviolet;
+}
+ol{
+    color: aqua;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+*{
+    color: red;
+    font-size: 34;
+    
+}
+h2{
+    color: blueviolet;
+    font-size: 26;
+    background-color: aqua;
+}
+p{
+    color: chartreuse;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:black;
+}
+ol li{
+    color: rgb(183, 46, 46);
+
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    
+    color: rgb(131, 22, 22);
+    background-image: url(Images/Sea);
+    background-size: cover;
+}
+.class{
+    color: azure;
+}
+.highlight{
+    color: black;
+    font-size: 18px;
+}
+#class{
+    color: rgb(118, 83, 151);
+}
+#highlight{
+    color: blanchedalmond;
+}

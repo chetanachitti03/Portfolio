@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(31, 203, 28);
+    color: white;
+    font-size: 20px;
+    background-image: url(Images/nature.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: rgb(191, 62, 178);
+    font-size: 18px;
+}
+h1
+{
+    font-size: 170%;
+    color: red;
+    width: 100%;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+ol{
+    color: pink;
+    font-size: 18px;
+}
+strong{
+    color: blue;
+}
+h3{
+    color: chocolate;
+}
+h2{
+    color: rgb(97, 17, 81);
+}
+div{
+    color: rgb(42, 51, 14);
+}
+span{
+    color: blanchedalmond;
+    font-size: 20px;
+}
